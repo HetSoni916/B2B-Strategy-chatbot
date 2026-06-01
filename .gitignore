@@ -32,3 +32,5 @@ data/
 
 # Generated evaluation artifacts (optional — keep evaluation-report.json)
 # eval/evaluation-report.json
+
+.vercel
