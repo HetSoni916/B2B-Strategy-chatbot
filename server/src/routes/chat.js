@@ -2,6 +2,7 @@ const express = require('express');
 const router = express.Router();
 const { v4: uuidv4 } = require('uuid');
 const Session = require('../models/Session');
+const { createSession, findSession } = require('../store/sessionStore');
 const { selectNextQuestion, scoreAnswer } = require('../services/questionEngine');
 const { classifyFounder, updateBucketScores, generateAIQuestion } = require('../services/classificationService');
 const { generateBrief } = require('../services/briefGenerator');
@@ -17,7 +18,7 @@ router.post('/start', async (req, res) => {
     const sessionId = uuidv4();
     const { founderName, companyName } = req.body;
 
-    const session = new Session({
+    const session = await createSession({
       sessionId,
       founderName: founderName || '',
       companyName: companyName || '',
@@ -27,7 +28,7 @@ router.post('/start', async (req, res) => {
       bucketScores: { GTM: 0, Sales: 0, Pricing: 0, Brand: 0, Operations: 0 },
       branchingHistory: [],
       status: 'active'
-    });
+    }, Session);
 
     // Select and personalize the first question
     const { question } = selectNextQuestion(session);
@@ -75,7 +76,7 @@ router.post('/message', async (req, res) => {
       return res.status(400).json({ error: 'sessionId and message are required' });
     }
 
-    const session = await Session.findOne({ sessionId });
+    const session = await findSession(sessionId, Session);
     if (!session) {
       return res.status(404).json({ error: 'Session not found' });
     }
@@ -220,7 +221,7 @@ router.post('/message', async (req, res) => {
 // ──────────────────────────────────────────────
 router.get('/:sessionId', async (req, res) => {
   try {
-    const session = await Session.findOne({ sessionId: req.params.sessionId });
+    const session = await findSession(req.params.sessionId, Session);
     
     if (!session) {
       return res.status(404).json({ error: 'Session not found' });
@@ -259,7 +260,7 @@ router.get('/:sessionId', async (req, res) => {
 // ──────────────────────────────────────────────
 router.get('/:sessionId/brief', async (req, res) => {
   try {
-    const session = await Session.findOne({ sessionId: req.params.sessionId });
+    const session = await findSession(req.params.sessionId, Session);
     
     if (!session) {
       return res.status(404).json({ error: 'Session not found' });
