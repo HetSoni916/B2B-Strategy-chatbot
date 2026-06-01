@@ -41,7 +41,17 @@ app.get('/api/health', (req, res) => {
   res.json({
     status: 'ok',
     timestamp: new Date().toISOString(),
-    db: mongoose.connection.readyState === 1 ? 'connected' : 'disconnected'
+    db: mongoose.connection.readyState === 1 ? 'connected' : 'disconnected',
+    env: process.env.NODE_ENV || 'development'
+  });
+});
+
+// Root API status
+app.get('/api', (req, res) => {
+  res.json({
+    service: 'B2B Strategy-Intake Chatbot API',
+    version: '1.0.0',
+    db: mongoose.connection.readyState === 1 ? 'connected' : 'disconnected — set MONGODB_URI in environment variables'
   });
 });
 

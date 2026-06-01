@@ -41,7 +41,14 @@ export default function LandingPage() {
       localStorage.setItem('founderName', founderName.trim())
       navigate('/chat', { state: { sessionId, firstMessage: res.data.message } })
     } catch (err) {
-      setError('Could not connect to server. Make sure the backend is running on port 5000.')
+      const msg = err?.response?.data?.error || err?.response?.data?.details || err?.message || ''
+      if (err?.response?.status === 500 && msg.toLowerCase().includes('mongo')) {
+        setError('Service temporarily unavailable — database not configured. Please try again later.')
+      } else if (!err?.response) {
+        setError('Could not reach the server. Please check your connection and try again.')
+      } else {
+        setError(`Server error: ${msg || 'Something went wrong. Please try again.'}`)
+      }
       console.error(err)
     } finally {
       setLoading(false)
