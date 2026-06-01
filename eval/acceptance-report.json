@@ -1,0 +1,129 @@
+{
+  "timestamp": "2026-06-01T06:10:01.894Z",
+  "allPassed": false,
+  "criteria": [
+    {
+      "name": "≥10/12 correct classifications",
+      "passed": true,
+      "detail": "12/12 (100.0%)"
+    },
+    {
+      "name": "Branching on ≥4 personas",
+      "passed": false,
+      "detail": "1 distinct paths"
+    },
+    {
+      "name": "Brief downloadable as .md",
+      "passed": true,
+      "detail": "All headings present"
+    },
+    {
+      "name": "Zero repeated questions",
+      "passed": true,
+      "detail": "All conversations clean"
+    }
+  ],
+  "c1": {
+    "passed": true,
+    "correct": 12,
+    "total": 12,
+    "accuracy": "100.0%"
+  },
+  "c2": {
+    "passed": false,
+    "distinctPaths": 1,
+    "bucketGroups": {
+      "GTM": [
+        "Alex Chen",
+        "Sarah Mitchell",
+        "David Park",
+        "Jessica Torres",
+        "Marcus Williams",
+        "Priya Sharma",
+        "Ryan Foster",
+        "Amara Johnson",
+        "James Rodriguez",
+        "Elena Kim",
+        "Michael Okonkwo",
+        "Diana Walsh"
+      ]
+    }
+  },
+  "c4": {
+    "passed": true,
+    "repeatReport": [
+      {
+        "persona": "Alex Chen",
+        "questionsAsked": 8,
+        "hasRepeats": false,
+        "duplicates": []
+      },
+      {
+        "persona": "Sarah Mitchell",
+        "questionsAsked": 8,
+        "hasRepeats": false,
+        "duplicates": []
+      },
+      {
+        "persona": "David Park",
+        "questionsAsked": 8,
+        "hasRepeats": false,
+        "duplicates": []
+      },
+      {
+        "persona": "Jessica Torres",
+        "questionsAsked": 8,
+        "hasRepeats": false,
+        "duplicates": []
+      },
+      {
+        "persona": "Marcus Williams",
+        "questionsAsked": 8,
+        "hasRepeats": false,
+        "duplicates": []
+      },
+      {
+        "persona": "Priya Sharma",
+        "questionsAsked": 8,
+        "hasRepeats": false,
+        "duplicates": []
+      },
+      {
+        "persona": "Ryan Foster",
+        "questionsAsked": 8,
+        "hasRepeats": false,
+        "duplicates": []
+      },
+      {
+        "persona": "Amara Johnson",
+        "questionsAsked": 8,
+        "hasRepeats": false,
+        "duplicates": []
+      },
+      {
+        "persona": "James Rodriguez",
+        "questionsAsked": 8,
+        "hasRepeats": false,
+        "duplicates": []
+      },
+      {
+        "persona": "Elena Kim",
+        "questionsAsked": 8,
+        "hasRepeats": false,
+        "duplicates": []
+      },
+      {
+        "persona": "Michael Okonkwo",
+        "questionsAsked": 8,
+        "hasRepeats": false,
+        "duplicates": []
+      },
+      {
+        "persona": "Diana Walsh",
+        "questionsAsked": 8,
+        "hasRepeats": false,
+        "duplicates": []
+      }
+    ]
+  }
+}

@@ -1,0 +1,34 @@
+# Dependencies
+node_modules/
+client/node_modules/
+server/node_modules/
+eval/node_modules/
+
+# Environment variables (NEVER commit these)
+.env
+server/.env
+*.env.local
+
+# Build outputs
+client/dist/
+client/build/
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# MongoDB data
+data/
+
+# Generated evaluation artifacts (optional — keep evaluation-report.json)
+# eval/evaluation-report.json

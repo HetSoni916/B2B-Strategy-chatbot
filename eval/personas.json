@@ -1,0 +1,194 @@
+[
+  {
+    "id": "P01",
+    "name": "Alex Chen",
+    "persona": "SaaS founder with a solid product but struggling to generate leads. Getting maybe 10 qualified leads a month, needs 50+ to hit targets. Has tried LinkedIn ads but no consistent pipeline. Doesn't know which channels to focus on.",
+    "expectedBucket": "GTM",
+    "simulatedAnswers": [
+      "I run a B2B SaaS startup selling project management software to mid-market companies. We have about 15 paying customers and are trying to scale.",
+      "My biggest obstacle is lead generation. We can't consistently fill our pipeline. We get maybe 10 qualified leads a month but need 50+ to hit our targets.",
+      "We've tried LinkedIn ads, content marketing, and cold outreach, but nothing is working consistently. Our customer acquisition cost is way too high.",
+      "If we can't fix our lead generation in the next 12 months, we'll burn through our runway. Our investors are already asking questions about our growth numbers.",
+      "We need to identify the right acquisition channels for our ICP and build a repeatable demand generation machine.",
+      "Our ideal customer is a VP of Operations at a 100-200 person company, but we haven't cracked how to reach them at scale.",
+      "Without a steady stream of qualified leads, we can't grow the sales team or reach product-market fit at scale.",
+      "Success would look like 50+ qualified leads per month with a clear, repeatable GTM motion that I can delegate to a marketing hire."
+    ]
+  },
+  {
+    "id": "P02",
+    "name": "Sarah Mitchell",
+    "persona": "Founder with a good product and decent leads but terrible close rates. Getting demos but losing 80% of them. Sales cycle is too long and she doesn't know why deals die.",
+    "expectedBucket": "Sales",
+    "simulatedAnswers": [
+      "I founded a sales enablement platform for B2B sales teams. We've been around 2 years and have a team of 8.",
+      "My biggest problem is our conversion rate. We book plenty of demos but our close rate is around 20% — it should be 35-40% for our stage.",
+      "Deals stall after the demo stage. We send proposals but never hear back. Our sales cycle is 45 days when it should be 2-3 weeks.",
+      "If our conversion stays this low, we'll miss our Series A metrics. We're burning cash on leads that never convert.",
+      "We have a 5-person sales team but no clear playbook. Everyone sells differently and our pipeline forecasting is a mess.",
+      "Price objections kill deals. We lose to competitors who are actually more expensive but better at articulating value.",
+      "Our close rate being stuck at 20% means we're leaving $30K+ on the table every month in lost deals.",
+      "A successful engagement would be improving our close rate to 35% and cutting our sales cycle from 45 to 20 days."
+    ]
+  },
+  {
+    "id": "P03",
+    "name": "David Park",
+    "persona": "B2B startup founder unsure about pricing. Charges too little, getting price objections from enterprise buyers, and suspects they're undercharging significantly.",
+    "expectedBucket": "Pricing",
+    "simulatedAnswers": [
+      "I run a cybersecurity compliance SaaS for SMBs and mid-market companies. We're at $180K ARR and trying to grow to $500K.",
+      "My biggest challenge is pricing. I don't know if I'm undercharging. We get price objections from enterprise buyers who say we're too cheap — which is a weird problem to have.",
+      "Our pricing was basically set by gut feel two years ago. $299/month for our base plan, $599 for pro. No real analysis behind it.",
+      "If I keep this pricing, I'm capped at a certain revenue ceiling and can't attract enterprise clients who want to see higher price points as a signal of quality.",
+      "We have no tiered packaging strategy. Clients either take the base plan or pro — there's no enterprise option that makes sense.",
+      "I've had enterprise prospects say our price is suspiciously low and they worry about our long-term viability as a vendor.",
+      "Underpricing is killing our MRR growth. If I could charge 3x more to 30% of our customers, that's a huge revenue impact.",
+      "Success would be a confident, value-based pricing model with clear tiers that lets us move upmarket without losing our SMB base."
+    ]
+  },
+  {
+    "id": "P04",
+    "name": "Jessica Torres",
+    "persona": "D2C founder with weak brand identity. Can't differentiate from competitors. Products are good but brand story is weak, hurting inbound and word-of-mouth.",
+    "expectedBucket": "Brand",
+    "simulatedAnswers": [
+      "I run a direct-to-consumer skincare brand. We've been around 3 years, doing about $1.2M in revenue but growth has stalled.",
+      "My biggest problem is brand identity. We look like every other clean beauty brand. I can't get people to understand why we're different.",
+      "We have great products but weak positioning. Our website and messaging feel generic. We're not telling a compelling story.",
+      "If we don't fix our brand, we'll keep competing on price with brands that have way bigger marketing budgets. We'll lose.",
+      "Our customers love us but they can't articulate why. Word-of-mouth is weak because there's no clear brand story to share.",
+      "Our awareness is almost entirely paid ads. We have no organic authority, no thought leadership, no community.",
+      "Weak branding means we can't command premium pricing. Customers compare us to cheaper alternatives because they don't see our differentiation.",
+      "Success would be a clear brand voice, a compelling origin story, and a content strategy that builds authority and drives organic traffic."
+    ]
+  },
+  {
+    "id": "P05",
+    "name": "Marcus Williams",
+    "persona": "Agency owner overwhelmed with operational chaos. Manual processes everywhere, staff confused, delivery inconsistent. Growing revenue but losing margin to operational inefficiency.",
+    "expectedBucket": "Operations",
+    "simulatedAnswers": [
+      "I run a digital marketing agency with 22 employees. We're doing $2.8M in revenue but our margins are getting squeezed.",
+      "My biggest problem is operations. Everything is in people's heads. No SOPs, no clear workflows, projects constantly fall through the cracks.",
+      "Our delivery is inconsistent. Some client projects go smoothly, others are a disaster. We can't scale because we don't have repeatable systems.",
+      "If we don't fix our operations, we'll keep losing good employees who are frustrated by the chaos, and clients who get inconsistent results.",
+      "I'm spending 60% of my time on operational firefighting — checking in on projects, solving problems that shouldn't reach me, doing work my team should handle.",
+      "We use 6 different tools that don't talk to each other. The team duplicates work constantly. There's no single source of truth.",
+      "Every new client we add feels like adding more chaos. We can't hire fast enough to handle growth with our current processes.",
+      "Success would be documented SOPs for every core workflow, integrated tools, and a business that runs without me firefighting every day."
+    ]
+  },
+  {
+    "id": "P06",
+    "name": "Priya Sharma",
+    "persona": "AI startup founder scaling outbound sales. Has a great product with early traction but needs to build outbound motion from scratch. Currently founder-led sales.",
+    "expectedBucket": "Sales",
+    "simulatedAnswers": [
+      "I run an AI-powered contract analysis startup. We have 12 enterprise customers and just raised a $2M seed round.",
+      "My biggest challenge is scaling our sales beyond founder-led. I close every deal myself, but I can't hire and ramp salespeople effectively.",
+      "Our sales process is entirely in my head. No playbook, no objection-handling guide, no qualification framework for reps to follow.",
+      "If I can't build a scalable sales engine in the next 6 months, I'll burn my runway before hitting Series A metrics.",
+      "We're starting an outbound motion with 2 new sales reps, but without a clear pipeline process they're struggling to make progress.",
+      "Our conversion from first call to closed deal is actually decent at 35%, but we're not generating enough pipeline to begin with.",
+      "The combination of needing more pipeline AND converting deals better is our core sales challenge right now.",
+      "Success would be a documented sales playbook, trained reps who can close without me, and a forecasting model I can trust."
+    ]
+  },
+  {
+    "id": "P07",
+    "name": "Ryan Foster",
+    "persona": "Product startup entering the HR tech market. Great product, no GTM strategy. Doesn't know how to reach buyers, which channels to use, or how to position for market entry.",
+    "expectedBucket": "GTM",
+    "simulatedAnswers": [
+      "We've built an HR analytics platform for mid-market companies. After 18 months of product development, we're finally ready to go to market.",
+      "Our biggest challenge is market entry. We've never done GTM before. We have a great product but no idea how to reach HR buyers at scale.",
+      "We've tried cold email and LinkedIn but the response rates are terrible. We don't know which acquisition channels work for HR tech.",
+      "If we can't crack GTM in 6 months, we'll run out of money before we can prove the business model to investors.",
+      "We have no ICP definition, no messaging framework, and no clear understanding of our buyer journey. We're throwing darts at the board.",
+      "We don't know whether to go after SMBs or mid-market. The sales motion is completely different and we can't afford to get it wrong.",
+      "Without a working GTM motion, we'll never know if the product is the problem or the marketing is the problem.",
+      "Success is 5 paying customers in 90 days and a clear demand generation playbook we can scale with our next hire."
+    ]
+  },
+  {
+    "id": "P08",
+    "name": "Amara Johnson",
+    "persona": "Creator business owner building a personal brand to sell courses and coaching. Has expertise but zero authority online. Needs a content and brand strategy.",
+    "expectedBucket": "Brand",
+    "simulatedAnswers": [
+      "I'm a former McKinsey consultant building a personal brand and online business selling strategy courses and coaching to founders.",
+      "My biggest problem is brand authority. I have tons of expertise but nobody online knows who I am. I can't attract an audience or clients without authority.",
+      "I've been posting on LinkedIn for 3 months with almost no traction. My content isn't landing. I don't have a clear brand voice or consistent messaging.",
+      "If I can't build authority in the next year, I won't be able to quit my job and run this full-time. The opportunity window will close.",
+      "I don't have a clear content strategy. I post random things and hope something sticks. No clear niche, no consistent narrative.",
+      "My positioning as a 'strategy coach for founders' is too broad. I don't know how to niche down without feeling like I'm leaving opportunities on the table.",
+      "Without thought leadership and brand awareness, I'll always have to rely on cold outreach to get clients. That's not scalable.",
+      "Success would be 10,000 LinkedIn followers in 12 months, a clear niche, and a content machine that generates inbound coaching inquiries."
+    ]
+  },
+  {
+    "id": "P09",
+    "name": "James Rodriguez",
+    "persona": "Consulting firm founder with pricing confusion. Charges by the hour, wants to move to value-based or package-based pricing. Losing clients to value perception issues.",
+    "expectedBucket": "Pricing",
+    "simulatedAnswers": [
+      "I run a 6-person management consulting firm focused on supply chain optimization. We do about $1.5M in revenue annually.",
+      "My biggest challenge is pricing. We charge by the hour at $250/hr and I think we're leaving massive value on the table. Clients budget-cap projects and we always race to the finish.",
+      "I want to move to value-based or package pricing but I don't know how to structure it. How do I price a 'supply chain audit' as a product?",
+      "If I don't change my pricing model, we'll always be trading time for money. Our revenue ceiling is the number of hours we can work.",
+      "I've tried to package some services but clients always ask to unbundle and pay hourly. I haven't figured out how to sell the package without them defaulting to hourly.",
+      "We lose deals when clients compare our hourly rate to cheaper offshore consultants. We can't compete on rate — we have to compete on value.",
+      "Our low pricing relative to the value we deliver makes clients underestimate our work. Higher prices might actually win us more credibility.",
+      "Success would be a productized service offering with 3 clear packages, moving off hourly billing entirely within 6 months."
+    ]
+  },
+  {
+    "id": "P10",
+    "name": "Elena Kim",
+    "persona": "Marketplace founder facing operational bottlenecks. Has 200+ vendors, manual onboarding, fragmented systems, and quality control problems. Can't scale the supply side.",
+    "expectedBucket": "Operations",
+    "simulatedAnswers": [
+      "I run a B2B marketplace connecting specialty manufacturers with procurement managers. We have 200+ vendors and 80 enterprise buyers.",
+      "My biggest problem is operational bottlenecks. Vendor onboarding is completely manual. It takes us 3 weeks to onboard a new vendor — it should take 3 days.",
+      "Our quality control process is ad hoc. We rely on individual team members to manually review everything. Nothing is automated or systematized.",
+      "If we don't fix our operations, we can't grow the vendor side fast enough to keep up with buyer demand. We'll lose marketplace liquidity.",
+      "We use a combination of Airtable, Google Sheets, and email to manage vendor relationships. Nothing is integrated. Data lives in three places.",
+      "My team spends 70% of their time on manual data entry and coordination instead of high-value work. We can't hire our way out of this — we need systems.",
+      "Every new vendor we add makes the chaos slightly worse. The operational overhead scales linearly with vendor count and that's unsustainable.",
+      "Success would be a fully automated vendor onboarding workflow, integrated tools, and a QC process that can handle 500+ vendors without adding headcount."
+    ]
+  },
+  {
+    "id": "P11",
+    "name": "Michael Okonkwo",
+    "persona": "B2B SaaS startup expanding internationally from US to Europe and APAC. Needs a localized GTM strategy, channel partners, and market entry framework.",
+    "expectedBucket": "GTM",
+    "simulatedAnswers": [
+      "I run a compliance automation SaaS with 150 US customers. We're ready to expand internationally — first to the UK and Germany, then APAC.",
+      "Our biggest challenge is international market entry. We have a strong US GTM motion but have no idea how to adapt it for Europe and Asia.",
+      "We don't know whether to go direct, through channel partners, or some hybrid model. Sales cycles and buyer behavior are completely different in Europe.",
+      "If we get our international expansion strategy wrong, we'll waste 12 months and $500K on the wrong markets with the wrong motion.",
+      "Our US acquisition channels — primarily SEO and SDR outbound — may not translate. European buyers are more relationship-driven and less responsive to cold outreach.",
+      "We need to figure out ICP localization: are our European ICPs the same as US? Do we need local competitors analysis? Which market first?",
+      "Without a proper market entry framework, we'll repeat the same trial-and-error we did in the US, but with less time and runway.",
+      "Success would be a validated international GTM playbook, 2 channel partners signed in Europe, and 10 European customers in 6 months."
+    ]
+  },
+  {
+    "id": "P12",
+    "name": "Diana Walsh",
+    "persona": "B2B service business owner (IT managed services) with consistently low close rates. Great reputation but can't convert referrals into clients. No formal sales process.",
+    "expectedBucket": "Sales",
+    "simulatedAnswers": [
+      "I run an IT managed services company with 35 employees. We've been in business 8 years and have a great reputation, but growth has plateaued.",
+      "My biggest problem is our sales conversion. We get plenty of referrals but our close rate on new business is only about 25%. We should be closing 50%+ given our track record.",
+      "We don't have a formal sales process. Every proposal is custom. We spend 8-10 hours writing proposals and close less than a third of them.",
+      "If we can't improve our close rate, we'll never grow beyond our current base. Word-of-mouth is great but we're leaving too many deals on the table.",
+      "Our sales conversations are too technical — we lead with features and specs instead of business outcomes. Prospects can't see the ROI.",
+      "We have no follow-up cadence after proposals. We send it and wait. Deals die in silence and we don't know why we lost.",
+      "With a 25% close rate, we need to generate 4x as many leads as we should. That's a massive inefficiency in our business.",
+      "Success would be a 45%+ close rate, a standardized proposal process, and a structured follow-up cadence that prevents deals from dying in silence."
+    ]
+  }
+]

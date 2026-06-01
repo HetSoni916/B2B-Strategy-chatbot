@@ -1,0 +1,12 @@
+{
+  "name": "b2b-chatbot-eval",
+  "version": "1.0.0",
+  "description": "Evaluation runner for B2B Chatbot",
+  "type": "commonjs",
+  "scripts": {
+    "evaluate": "node evaluator.js"
+  },
+  "dependencies": {
+    "axios": "^1.6.0"
+  }
+}

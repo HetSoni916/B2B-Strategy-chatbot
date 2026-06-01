@@ -1,0 +1,255 @@
+{
+  "accuracy": "100.0%",
+  "passed": true,
+  "correct": 12,
+  "total": 12,
+  "threshold": "10/12 (83.3%)",
+  "timestamp": "2026-06-01T06:00:29.194Z",
+  "simulationMethod": "api",
+  "results": [
+    {
+      "personaId": "P01",
+      "personaName": "Alex Chen",
+      "persona": "SaaS founder with a solid product but struggling to generate leads. Getting maybe 10 qualified leads...",
+      "expectedBucket": "GTM",
+      "classifiedBucket": "GTM",
+      "correct": true,
+      "confidence": 60,
+      "scores": {
+        "GTM": 60,
+        "Sales": 13,
+        "Pricing": 4,
+        "Brand": 10,
+        "Operations": 13
+      },
+      "sessionId": "55761fdd-0938-40ad-bdf0-edf034af91b2",
+      "method": "api"
+    },
+    {
+      "personaId": "P02",
+      "personaName": "Sarah Mitchell",
+      "persona": "Founder with a good product and decent leads but terrible close rates. Getting demos but losing 80% ...",
+      "expectedBucket": "Sales",
+      "classifiedBucket": "Sales",
+      "correct": true,
+      "confidence": 71,
+      "scores": {
+        "GTM": 5,
+        "Sales": 71,
+        "Pricing": 9,
+        "Brand": 9,
+        "Operations": 6
+      },
+      "sessionId": "5334b769-c720-4403-9e35-3459d12794a7",
+      "method": "api"
+    },
+    {
+      "personaId": "P03",
+      "personaName": "David Park",
+      "persona": "B2B startup founder unsure about pricing. Charges too little, getting price objections from enterpri...",
+      "expectedBucket": "Pricing",
+      "classifiedBucket": "Pricing",
+      "correct": true,
+      "confidence": 55,
+      "scores": {
+        "GTM": 0,
+        "Sales": 26,
+        "Pricing": 55,
+        "Brand": 19,
+        "Operations": 0
+      },
+      "sessionId": "8c6e58b1-e435-4bc0-b63b-6052c83c4230",
+      "method": "api"
+    },
+    {
+      "personaId": "P04",
+      "personaName": "Jessica Torres",
+      "persona": "D2C founder with weak brand identity. Can't differentiate from competitors. Products are good but br...",
+      "expectedBucket": "Brand",
+      "classifiedBucket": "Brand",
+      "correct": true,
+      "confidence": 76,
+      "scores": {
+        "GTM": 8,
+        "Sales": 8,
+        "Pricing": 8,
+        "Brand": 76,
+        "Operations": 0
+      },
+      "sessionId": "b8b6fcc1-e002-436c-8046-88a02f0f72fe",
+      "method": "api"
+    },
+    {
+      "personaId": "P05",
+      "personaName": "Marcus Williams",
+      "persona": "Agency owner overwhelmed with operational chaos. Manual processes everywhere, staff confused, delive...",
+      "expectedBucket": "Operations",
+      "classifiedBucket": "Operations",
+      "correct": true,
+      "confidence": 69,
+      "scores": {
+        "GTM": 6,
+        "Sales": 6,
+        "Pricing": 6,
+        "Brand": 13,
+        "Operations": 69
+      },
+      "sessionId": "d9d91319-4b4f-4536-9189-fae2d5c8be1d",
+      "method": "api"
+    },
+    {
+      "personaId": "P06",
+      "personaName": "Priya Sharma",
+      "persona": "AI startup founder scaling outbound sales. Has a great product with early traction but needs to buil...",
+      "expectedBucket": "Sales",
+      "classifiedBucket": "Sales",
+      "correct": true,
+      "confidence": 67,
+      "scores": {
+        "GTM": 7,
+        "Sales": 67,
+        "Pricing": 0,
+        "Brand": 17,
+        "Operations": 9
+      },
+      "sessionId": "3ea406e9-6725-4cc0-8fb4-e8887a44110d",
+      "method": "api"
+    },
+    {
+      "personaId": "P07",
+      "personaName": "Ryan Foster",
+      "persona": "Product startup entering the HR tech market. Great product, no GTM strategy. Doesn't know how to rea...",
+      "expectedBucket": "GTM",
+      "classifiedBucket": "GTM",
+      "correct": true,
+      "confidence": 67,
+      "scores": {
+        "GTM": 67,
+        "Sales": 10,
+        "Pricing": 0,
+        "Brand": 23,
+        "Operations": 0
+      },
+      "sessionId": "e82fb8ba-ba19-4d03-b5dd-495e601de1d9",
+      "method": "api"
+    },
+    {
+      "personaId": "P08",
+      "personaName": "Amara Johnson",
+      "persona": "Creator business owner building a personal brand to sell courses and coaching. Has expertise but zer...",
+      "expectedBucket": "Brand",
+      "classifiedBucket": "Brand",
+      "correct": true,
+      "confidence": 68,
+      "scores": {
+        "GTM": 26,
+        "Sales": 0,
+        "Pricing": 5,
+        "Brand": 68,
+        "Operations": 0
+      },
+      "sessionId": "7cc9401b-b530-4c66-a6c1-d4a7ea392aca",
+      "method": "api"
+    },
+    {
+      "personaId": "P09",
+      "personaName": "James Rodriguez",
+      "persona": "Consulting firm founder with pricing confusion. Charges by the hour, wants to move to value-based or...",
+      "expectedBucket": "Pricing",
+      "classifiedBucket": "Pricing",
+      "correct": true,
+      "confidence": 55,
+      "scores": {
+        "GTM": 0,
+        "Sales": 18,
+        "Pricing": 55,
+        "Brand": 26,
+        "Operations": 0
+      },
+      "sessionId": "49e99150-6bb2-4ee6-b97f-b6e63a338677",
+      "method": "api"
+    },
+    {
+      "personaId": "P10",
+      "personaName": "Elena Kim",
+      "persona": "Marketplace founder facing operational bottlenecks. Has 200+ vendors, manual onboarding, fragmented ...",
+      "expectedBucket": "Operations",
+      "classifiedBucket": "Operations",
+      "correct": true,
+      "confidence": 68,
+      "scores": {
+        "GTM": 0,
+        "Sales": 20,
+        "Pricing": 0,
+        "Brand": 12,
+        "Operations": 68
+      },
+      "sessionId": "dc6fb768-22a8-4309-b545-8ae772946b94",
+      "method": "api"
+    },
+    {
+      "personaId": "P11",
+      "personaName": "Michael Okonkwo",
+      "persona": "B2B SaaS startup expanding internationally from US to Europe and APAC. Needs a localized GTM strateg...",
+      "expectedBucket": "GTM",
+      "classifiedBucket": "GTM",
+      "correct": true,
+      "confidence": 74,
+      "scores": {
+        "GTM": 74,
+        "Sales": 13,
+        "Pricing": 0,
+        "Brand": 7,
+        "Operations": 6
+      },
+      "sessionId": "5f78475f-c280-4328-8fa4-8ca93e9e470f",
+      "method": "api"
+    },
+    {
+      "personaId": "P12",
+      "personaName": "Diana Walsh",
+      "persona": "B2B service business owner (IT managed services) with consistently low close rates. Great reputation...",
+      "expectedBucket": "Sales",
+      "classifiedBucket": "Sales",
+      "correct": true,
+      "confidence": 54,
+      "scores": {
+        "GTM": 7,
+        "Sales": 54,
+        "Pricing": 0,
+        "Brand": 24,
+        "Operations": 15
+      },
+      "sessionId": "f135e32c-6f96-4763-a5e2-69f817b6f20b",
+      "method": "api"
+    }
+  ],
+  "bucketBreakdown": {
+    "GTM": {
+      "total": 3,
+      "correct": 3,
+      "accuracy": "100%"
+    },
+    "Sales": {
+      "total": 3,
+      "correct": 3,
+      "accuracy": "100%"
+    },
+    "Pricing": {
+      "total": 2,
+      "correct": 2,
+      "accuracy": "100%"
+    },
+    "Brand": {
+      "total": 2,
+      "correct": 2,
+      "accuracy": "100%"
+    },
+    "Operations": {
+      "total": 2,
+      "correct": 2,
+      "accuracy": "100%"
+    }
+  },
+  "incorrectClassifications": []
+}
